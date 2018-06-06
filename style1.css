@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri:400,700&amp;subset=latin-ext" rel="stylesheet'); 
+
+:root {
+    --main-color: lightcyan;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+body {
+    background-image: linear-gradient(lightyellow, lightcyan)
+}
+header {
+    background-image: url(\img_1.png);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+main {
+    background-image: url(\img_2.png);
+    background-attachment: scroll;
+    text-align: justify;
+    text-align-last: left;
+}
+h3 > p {
+    background-color: rgb(37, 30, 20);
+}
+div {
+    align-content: right;
+}
+footer {
+    text-align: center;
+}
