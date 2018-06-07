@@ -4,18 +4,22 @@
     --main-color: lightcyan;
     font-family: 'Hind Siliguri', sans-serif;
 }
+style {
+    display: none;
+}
+
 body {
-    background-image: linear-gradient(lightyellow, lightcyan)
+    background-image: url(pilt.png);
+    background-position: top;
+    background-attachment: fixed;
 }
 header {
-    background-image: url(\img_1.png);
-    background-repeat: no-repeat;
-    color: white;
+    color: darkblue;
     text-align: center;
     font-family: 'Hind Siliguri', sans-serif;
 }
 main {
-    background-image: url(\img_2.png);
+    background-image: cross-fade(pink);
     background-attachment: scroll;
     text-align: justify;
     text-align-last: left;
